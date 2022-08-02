@@ -1,5 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
-let g:netrw_dirhist_3='/home/fsociety/.vim/vim-colorschemes'
-let g:netrw_dirhist_2='/home/fsociety/.vim/ColorSamplerPack/colors'
-let g:netrw_dirhist_1='/home/fsociety/.vim/ColorSamplerPack/plugin'
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/etc/mysql/mysql.conf.d'
+let g:netrw_dirhist_7='/etc/mysql/conf.d'
+let g:netrw_dirhist_6='/home/fsociety/holberton/holbertonschool-low_level_programming'
+let g:netrw_dirhist_5='/home/fsociety/holberton/holbertonschool-low_level_programming/0x1C-makefiles'
+let g:netrw_dirhist_4='/home/fsociety/Java-Developer/0x01-hello_world'
+let g:netrw_dirhist_3='/home/fsociety/gustavo/tests'
+let g:netrw_dirhist_2='/home'
+let g:netrw_dirhist_1='/home/fsociety/.vim'
+let g:netrw_dirhist_0='/home/fsociety/holberton/holbertonschool-higher_level_programming/0x07-python-test_driven_development'
+let g:netrw_dirhist_9='/home/fsociety/holberton/holberton-system_engineering-devops/0x05-processes_and_signals'

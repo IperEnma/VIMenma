@@ -174,10 +174,10 @@ set noswapfile
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use spaces instead of tabs
-set expandtab
+"set expandtab
 
 " Be smart when using tabs ;)
-set smarttab
+"set smarttab
 
 " 1 tab == 4 spaces
 set shiftwidth=4
@@ -384,3 +384,11 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => SEMISTANDARD JS
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" check style javascript
+let g:syntastic_javascript_checkers=['standard']
+let g:syntastic_javascript_standard_exec = 'semistandard'
+autocmd bufwritepost *.js silent !semistandard % --fix
+set autoread
